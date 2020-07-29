@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+  background-color: #252122;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #252122 !important;
+  color: white;
+}
+
+.dark {
+  color: #252122;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+}
+
+.jumbotron {
+  background: none !important;
+}
+
+#header {
+  background-color: #252122 !important;
+  color: white;
+  background-image: url('/assets/images/code02.webp');
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/* Section/Tittle */
+section, article {
+  margin-bottom: 2.5em;
+}
+
+  section > :last-child, section:last-child, article > :last-child, article:last-child {
+    margin-bottom: 0;
+  }
+
+header {
+  margin: 0 0 1.5em 0;
+}
+
+header.major {
+  position: relative;
+  text-align: center;
+  border-top: solid 1px #ccc;
+  top: 1em;
+  margin: 0 0 3em 0;
+}
+
+header.major h2 {
+  background: #fff;
+  position: relative;
+  top: -0.65em;
+  display: inline;
+  margin: 0;
+  padding: 0 1em 0 1em;
+}
+
+/* Hover button */
+#button {
+  display: inline-block;
+  background-color: #252122;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+  
+}
+
+.box-shadow {
+  box-shadow: 0 0 0 0.2em #fff;
+}
+
+.box-shadow:hover {
+  box-shadow: 0 0 0 0.2em #3599FF;
+  -webkit-transition:  box-shadow .25s ease-in-out;
+	-moz-transition:  box-shadow .25s ease-in-out;
+	-o-transition: box-shadow .25s ease-in-out;
+  transition:  box-shadow .25s ease-in-out;
+}
