@@ -1,5 +1,5 @@
 /* General */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,11 +8,12 @@
 html {
   box-sizing: border-box;
   background-color: #252122;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 17px;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -42,7 +43,7 @@ footer {
 #header {
   background-color: #252122 !important;
   color: white;
-  background-image: url('/assets/images/code02.webp');
+  background-image: url("../../assets/images/code02.webp");
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -57,28 +58,32 @@ footer {
 }
 
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 .featurette-divider {
-  margin: 5rem 0; 
+  margin: 5rem 0;
 }
 
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
 
 /* Section/Tittle */
-section, article {
+section,
+article {
   margin-bottom: 2.5em;
 }
 
-  section > :last-child, section:last-child, article > :last-child, article:last-child {
-    margin-bottom: 0;
-  }
+section > :last-child,
+section:last-child,
+article > :last-child,
+article:last-child {
+  margin-bottom: 0;
+}
 
 header {
   margin: 0 0 1.5em 0;
@@ -112,8 +117,7 @@ header.major h2 {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
@@ -137,7 +141,6 @@ header.major h2 {
 #button.show {
   opacity: 1;
   visibility: visible;
-  
 }
 
 .box-shadow {
@@ -145,9 +148,9 @@ header.major h2 {
 }
 
 .box-shadow:hover {
-  box-shadow: 0 0 0 0.2em #3599FF;
-  -webkit-transition:  box-shadow .25s ease-in-out;
-	-moz-transition:  box-shadow .25s ease-in-out;
-	-o-transition: box-shadow .25s ease-in-out;
-  transition:  box-shadow .25s ease-in-out;
+  box-shadow: 0 0 0 0.2em #3599ff;
+  -webkit-transition: box-shadow 0.25s ease-in-out;
+  -moz-transition: box-shadow 0.25s ease-in-out;
+  -o-transition: box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out;
 }
